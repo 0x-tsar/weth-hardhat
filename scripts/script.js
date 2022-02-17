@@ -15,7 +15,6 @@ async function main() {
   );
 
   const value = ethers.utils.parseUnits("0.000001", "ether");
-  // console.log(value.toString());
   // const tx = await weth.deposit({ value: value });
   // const tx = await weth.withdraw(value);
   // console.log(tx);
